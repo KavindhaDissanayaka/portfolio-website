@@ -1,0 +1,17 @@
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Public Repositories</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4" *ngFor="let repo of repos">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">{{ repo.name }}</h5>
+            <p class="card-text">{{ repo.description }}</p>
+            <a [href]="repo.html_url" target="_blank" class="btn btn-primary">View on GitHub</a>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated: {{ repo.updated_at | date }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

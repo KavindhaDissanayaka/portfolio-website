@@ -1,0 +1,16 @@
+<div class="project-container">
+    <h1>Project Overview</h1>
+    @for (project of projects; track project.title) {
+      <div class="project-card">
+        <h2>{{ project.title }}</h2>
+        <p><strong>Description:</strong> {{ project.description }}</p>
+        <p><strong>Technologies:</strong> {{ project.technologies }}</p>
+        <p><strong>Features:</strong></p>
+        <ul>
+          @for (feature of project.features; track feature) {
+            <li>{{ feature }}</li>
+          }
+        </ul>
+      </div>
+    }
+  </div>

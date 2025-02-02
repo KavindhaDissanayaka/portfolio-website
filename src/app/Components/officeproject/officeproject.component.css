@@ -2,7 +2,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    padding-top: 5rem;
+    padding: 2rem;
+    justify-items: center;
   }
   
   .project-card {
@@ -19,4 +20,7 @@
   
   .project-card ul {
     padding-left: 20px;
+  }
+  h1{
+    text-align: center;
   }

@@ -85,3 +85,6 @@ body {
 .btn-warning:hover {
     background-color: #e0a800;
 }
+h3{
+    padding: 1rem;
+}

@@ -58,3 +58,19 @@ body {
 .btn-warning:hover {
     background-color: #e0a800;
 }
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: #333;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ffc107;
+    transform: translateY(-5px);
+}

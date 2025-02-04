@@ -10,17 +10,6 @@ import { Component } from '@angular/core';
 export class OfficeprojectComponent {
   projects = [
     {
-      title: 'Regional Centralized Warehouse',
-      description: 'A system developed for a plantation in Sri Lanka to manage inventory, goods purchase, and issue based on purchase requisitions according to the estate.',
-      technologies: 'C# .NET, Inform Application',
-      features: [
-        'Manage inventory system',
-        'Goods purchase and issue based on purchase requisitions',
-        'Centralized warehouse management'
-      ]
-    },
-    // Add other projects here in the same format
-    {
       title: 'Timber Management System',
       description: 'A system to track timber inventory, manage sales and transactions, calculate tree values, and generate reports.',
       technologies: 'C# .NET WinForms',
@@ -31,6 +20,17 @@ export class OfficeprojectComponent {
         'Generate reports and analytics'
       ]
     },
+    {
+      title: 'Regional Centralized Warehouse',
+      description: 'A system developed for a plantation in Sri Lanka to manage inventory, goods purchase, and issue based on purchase requisitions according to the estate.',
+      technologies: 'C# .NET, Inform Application',
+      features: [
+        'Manage inventory system',
+        'Goods purchase and issue based on purchase requisitions',
+        'Centralized warehouse management'
+      ]
+    },
+   
     {
       title: 'Tea Export System and Warehouse System',
       description: 'A system developed for a plantation in Sri Lanka to auction tea, create blends, and export blends according to sales orders.',

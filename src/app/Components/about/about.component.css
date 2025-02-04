@@ -1,7 +1,7 @@
 /* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #ffffff;
     color: #333;
 }
 
@@ -17,7 +17,7 @@ body {
 /* About Section */
 .about-section {
     padding: 100px 0;
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
 }
 
 .about-content {

@@ -8,12 +8,13 @@ body {
 
 /* Navigation Bar */
 .navbar {
-    background-color: #343a40 !important;
+    background: linear-gradient(to right, rgb(217, 220, 220), rgba(59, 56, 80, 0.905)) !important;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-brand {
     font-weight: 600;
+    color: crimson;
     font-size: 1.5rem;
 }
 

@@ -1,10 +1,11 @@
+<div class="container">
 <div style="padding-top: 5rem;">
     <h1 class="text-danger">Project Overview</h1>
-</div>
-    <div class="project-container" >
+</div >
+<div class="row h-100" style="justify-content: center;">
  
         @for (project of projects; track project.title) {
-          <div class="project-card">
+          <div class="project-card" >
             <h2>{{ project.title }}</h2>
             <p><strong>Description:</strong> {{ project.description }}</p>
             <p><strong>Technologies:</strong> {{ project.technologies }}</p>
@@ -16,4 +17,5 @@
             </ul>
           </div>
         }
-      </div>
+    </div>
+  </div>
